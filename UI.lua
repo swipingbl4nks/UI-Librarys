@@ -1,5 +1,5 @@
 local Library = {}
--- Random UI Name
+
 local LibraryName = tostring(math.random(100000,200000))..tostring(math.random(100000,200000))..tostring(math.random(100000,200000))
 
 function Library:Toggle()
@@ -53,8 +53,8 @@ function Library:Drag(obj)
 end
 
 function Library:Create(xHubName,xGameName)
-    local xHubName = xHubName or "UI Library"
-    local xGameName = xGameName or "By Mapple#3045"
+    local xHubName = xHubName or "xDev Library"
+    local xGameName = xGameName or "By @Swipingbl4nks on Discord."
     local ScreenGui = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
@@ -80,7 +80,7 @@ function Library:Create(xHubName,xGameName)
 
     Main.Name = "Main"
     Main.Parent = ScreenGui
-    Main.BackgroundColor3 = Color3.fromRGB(31, 30, 46)
+    Main.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
     Main.Position = UDim2.new(0.278277636, 0, 0.281287253, 0)
     Main.Size = UDim2.new(0, 580, 0, 370)
 
@@ -90,7 +90,7 @@ function Library:Create(xHubName,xGameName)
 
     Sidebar.Name = "Sidebar"
     Sidebar.Parent = Main
-    Sidebar.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+    Sidebar.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
     Sidebar.Size = UDim2.new(0, 140, 0, 370)
 
     SidebarCorner.Name = "SidebarCorner"
